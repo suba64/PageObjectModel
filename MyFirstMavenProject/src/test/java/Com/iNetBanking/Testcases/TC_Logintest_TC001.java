@@ -1,5 +1,9 @@
 package Com.iNetBanking.Testcases;
 
+import java.awt.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import Com.iNetBankingPageObjects.LoginPage;
@@ -7,6 +11,10 @@ import Com.iNetBankingPageObjects.LoginPage;
 public class TC_Logintest_TC001 extends BaseClass
 
 {
+	
+	
+	List<WebElement> lnks=driver.findElements(By.tagName("a"));
+	
 	@Test
 	public void loginTest()
 	{
@@ -17,6 +25,7 @@ public class TC_Logintest_TC001 extends BaseClass
 		lp.setPassWord(password);
 		lp.clickSubmit();
 		
+	
 		
 	}
 
