@@ -1,4 +1,4 @@
-package Com.iNetBanking.Testcases;
+package Com.Runnable.Testcases;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

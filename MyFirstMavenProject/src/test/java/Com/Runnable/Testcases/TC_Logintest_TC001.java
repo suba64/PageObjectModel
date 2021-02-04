@@ -1,4 +1,4 @@
-package Com.iNetBanking.Testcases;
+package Com.Runnable.Testcases;
 
 import java.awt.List;
 
